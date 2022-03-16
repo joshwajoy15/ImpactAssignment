@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AccountAnalysis_SwagLabs">
+  <test name="SmokeTesting" >
+    <classes>
+       <class name="com.impact.testcases.LoginPageTest" />
+       <class name="com.impact.testcases.HomePageTest" />
+    </classes>
+  </test>
+</suite>
